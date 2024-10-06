@@ -1,0 +1,163 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+    background-color: #F5DCF2;
+}
+
+.left-header {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 900;
+}
+
+.right-header {
+    display: flex;
+    height: 58px;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 18px 10px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container {
+    display: flex;
+    padding: 50px;
+}
+
+.body-container.one {
+    background-color: #94E09D;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-row-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-row-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.top-row-btn a {
+    display: inline-block;
+    background-color: #E094D7;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: solid black;
+    padding: 5px 10px;
+}
+
+.body-container.one img {
+    width: 300px;
+}
+
+.body-container.two {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.container-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.container-image img {
+    width: 100px;
+}
+
+.body-container.three {
+    background-color: #f5dce679;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 50%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 26px;
+    text-align: right;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+.body-container.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #F5DCF2;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.footer-text img {
+    width: 21px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
