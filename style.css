@@ -87,6 +87,10 @@ body {
     padding: 5px 10px;
 }
 
+.top-row-btn a:hover {
+    background-color: #CF5AC1;  
+}
+
 .body-container.one img {
     width: 300px;
 }
