@@ -48,6 +48,11 @@ body {
     color: black;
     display: inline-block;
     padding: 18px 10px;
+    border-radius: 5px;
+}
+
+.header a:hover {
+    background-color: #E094D7;
 }
 
 .body {
